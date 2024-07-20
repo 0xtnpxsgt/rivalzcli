@@ -53,11 +53,11 @@ execute_with_prompt 'node --version'
 echo
 
 echo -e "${BOLD}${DARK_YELLOW}Installing Rivalz...${RESET}"
-execute_with_prompt ' npm i -g rivalz-node-cli@2.3.8 '
+execute_with_prompt 'sudo npm i -g rivalz-node-cli@2.3.8'
 echo
 
 echo -e "${BOLD}${DARK_YELLOW}Running your Cli Rivalz...${RESET}"
-execute_with_prompt 'rivalz run'
+execute_with_prompt 'sudo rivalz run'
 echo
 
 echo "${BOLD}${DARK_YELLOW}Follow me on Discord @0xTNPxSGT for one click node run guides !!${RESET}"
