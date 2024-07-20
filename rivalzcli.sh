@@ -52,12 +52,6 @@ echo
 execute_with_prompt 'node --version'
 echo
 
-echo -e "${BOLD}${DARK_YELLOW}Installing Screen...${RESET}"
-execute_with_prompt 'sudo apt-get install screen -y'
-echo
-execute_with_prompt 'screen -S rivalz'
-echo
-
 echo -e "${BOLD}${DARK_YELLOW}Installing Rivalz...${RESET}"
 execute_with_prompt ' npm i -g rivalz-node-cli@2.3.8 '
 echo
