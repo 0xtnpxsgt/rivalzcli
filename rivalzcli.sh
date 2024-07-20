@@ -53,7 +53,7 @@ execute_with_prompt 'node --version'
 echo
 
 echo -e "${BOLD}${DARK_YELLOW}Installing Screen...${RESET}"
-execute_with_prompt 'apt-get install screen -y'
+execute_with_prompt 'sudo apt-get install screen -y'
 echo
 execute_with_prompt 'screen -S rivalz'
 echo
