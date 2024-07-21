@@ -40,7 +40,7 @@ sed -i -e 's/\r$//' rivalzcli.sh && ./rivalzcli.sh
 
 Step5: Dettached Screen
 ```bash
-crtl A+D
+hold crtl press A & D
 ```
 
 ## Other Commands ✅
