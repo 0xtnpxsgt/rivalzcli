@@ -26,7 +26,7 @@ Step2:
 apt install screen
 ```
 
-Step3: 
+Step3: Create Screen
 ```bash
 screen -S rivalz
 ```
