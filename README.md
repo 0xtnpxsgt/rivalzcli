@@ -16,15 +16,41 @@ Storage : SSD or NVMe with at least 50GB of space
 ```
 
 ## Deployment 
+Step1: 
+```bash
+apt install wget 
+```
+
+Step2: 
+```bash
+apt install screen
+```
+
+Step3: 
+```bash
+screen -S rivalz
+```
 
 ```bash
 wget https://raw.githubusercontent.com/0xtnpxsgt/rivalzcli/main/rivalzcli.sh && chmod +x rivalzcli.sh && 
 sed -i -e 's/\r$//' rivalzcli.sh && ./rivalzcli.sh
 ```
+Step4: Dettached Screen
+```bash
+crtl A+D
+```
+
+## Usefull Commands ✅
 
 ## Check for Update ✅
 
 ```bash
 rivalz version-update 
 rivalz run
+```
+
+## Screen Re-Attached ✅
+
+```bash
+Screen -d -x screen-name
 ```
