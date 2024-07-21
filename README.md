@@ -48,7 +48,12 @@ rivalz version-update
 rivalz run
 ```
 
-Screen re-attached
+Re-attached Screen 
+```bash
+Screen -d -x screen-name
+```
+
+Remove Screen 
 ```bash
 Screen -d -x screen-name
 ```
