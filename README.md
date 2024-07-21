@@ -36,6 +36,8 @@ Step4:
 wget https://raw.githubusercontent.com/0xtnpxsgt/rivalzcli/main/rivalzcli.sh && chmod +x rivalzcli.sh && 
 sed -i -e 's/\r$//' rivalzcli.sh && ./rivalzcli.sh
 ```
+- In the last part of the command execution, it will ask for your `wallet & Vps Info`, Here you need input it manually)
+
 Step5: Dettached Screen
 ```bash
 crtl A+D
