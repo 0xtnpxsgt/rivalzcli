@@ -31,26 +31,24 @@ Step3:
 screen -S rivalz
 ```
 
+Step4:
 ```bash
 wget https://raw.githubusercontent.com/0xtnpxsgt/rivalzcli/main/rivalzcli.sh && chmod +x rivalzcli.sh && 
 sed -i -e 's/\r$//' rivalzcli.sh && ./rivalzcli.sh
 ```
-Step4: Dettached Screen
+Step5: Dettached Screen
 ```bash
 crtl A+D
 ```
 
-## Usefull Commands ✅
-
-## Check for Update ✅
+## Other Commands ✅
 
 ```bash
 rivalz version-update 
 rivalz run
 ```
 
-## Screen Re-Attached ✅
-
+Screen re-attached
 ```bash
 Screen -d -x screen-name
 ```
