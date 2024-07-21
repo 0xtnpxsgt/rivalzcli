@@ -36,7 +36,7 @@ Step4:
 wget https://raw.githubusercontent.com/0xtnpxsgt/rivalzcli/main/rivalzcli.sh && chmod +x rivalzcli.sh && 
 sed -i -e 's/\r$//' rivalzcli.sh && ./rivalzcli.sh
 ```
-- In the last part of the command execution, it will ask for your `wallet & Vps Info`, Here you need input the details manually)
+- In the last part of the command execution, it will ask for your `wallet & Vps Info`, Here you need to input the details manually)
 
 Step5: Dettached Screen
 ```bash
@@ -50,12 +50,22 @@ rivalz version-update
 rivalz run
 ```
 
+Open Screen List
+```bash
+Screen -ls
+```
+
+Open Screen 
+```bash
+Screen -r screen-name
+```
+
 Re-attached Screen 
 ```bash
-Screen -d -x screen-name
+Screen -d -r screen-name
 ```
 
 Remove Screen 
 ```bash
-Screen -d -x screen-name
+Screen -XS screen-name quit
 ```
