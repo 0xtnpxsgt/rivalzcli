@@ -69,3 +69,5 @@ Remove Screen
 ```bash
 Screen -XS screen-name quit
 ```
+
+- Join our community https://discord.gg/QTAqpuRDhP
