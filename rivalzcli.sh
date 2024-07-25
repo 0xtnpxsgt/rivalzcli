@@ -60,5 +60,5 @@ echo -e "${BOLD}${DARK_YELLOW}Running your Cli Rivalz...${RESET}"
 execute_with_prompt 'sudo rivalz run'
 echo
 
-echo "${BOLD}${DARK_YELLOW}Follow me on Discord @0xTNPxSGT for one click node run guides !!${RESET}"
+echo "${BOLD}${DARK_YELLOW}Follow me on Discord https://discord.gg/QTAqpuRDhP for one click node run guides !!${RESET}"
 echo
